@@ -50,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
-            Text("Welcome to Search word"),
+            Text("Welcome to Search word",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,fontStyle: FontStyle.italic),),
             SizedBox(
               height: 30,
             ),
